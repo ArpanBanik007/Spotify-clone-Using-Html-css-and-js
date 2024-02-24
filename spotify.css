@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    background: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul li{
+    padding: 0 10px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 69px;
+    list-style-type: none;/*ul list er aga jei dot ta thake seta chole jabe ri property ta use korle*/
+    background-color: black;
+    color: white;
+}
+.logo-1 img{
+width: 64px;
+padding: 0 6px;
+
+}
+.logo-1{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+   background-image: url('bg.jpg');
+   background-size: cover;
+}
+
+.botton{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon{
+    margin-top: 28px;
+}
+.icon i{
+    cursor: pointer;/* cursor pointer mean is jokon icon okane jabe tokhon hat symbol ta asbe*/
+    width: 1.5cm;
+    
+}
+    
+
+
+#myprogressbar{
+    width: 75vw;
+    cursor: pointer;
+
+}
+.songItemcontainer{
+    margin-top: 40px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(235, 82, 82);
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+
+}
+.songItem img{
+    width: 45px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+    cursor: pointer;
+}
+.soninfo{
+    position: absolute;
+    left: 10vw;
+}
+.soninfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
